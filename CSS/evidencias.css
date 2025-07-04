@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 36px;
+    color: #d2691e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #b85c38;
+    margin-top: 40px;
+    border-left: 4px solid #f4a261;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #bc6c25;
+    margin-top: 25px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #b5562b;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #f4a261;
+    margin: 50px 0;
+}
+
+a {
+    color: #b85c38;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #8c3f20;
+}
+
+/* iframe styling */
+iframe {
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+/* Optional fixed height */
+iframe[style*="height:120px"],
+iframe[style*="height:180px"] {
+    max-width: 100%;
+}
+
+.card-escena {
+    background-color: #fff8ec;
+    border-left: 4px solid #f4a261;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+}
+
+.card-escena:hover {
+    transform: scale(1.01);
+}
